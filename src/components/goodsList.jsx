@@ -2,7 +2,7 @@ import { GoodsItem } from "./goodsItem";
 function GoodsList(props) {
   const { goods = [] } = props;
   if (!goods.length) {
-    return <h3>Nothing is here </h3>;
+    return <h3>Nothing is here Lets check the VCS </h3>;
   }
 
   return (
